@@ -1,0 +1,11 @@
+Come usare il codice: 
+- apri 3 terminali
+- bash 1_run_docker.sh
+- negli altri 2 fai: docker exec -it <tab> bash
+- in tutti i terminali source dell' install
+- ros2 launch bcr_bot gazebo_headless.launch.py
+- ros2 launch rfid_amcl_node rfid_localization_auto.launch.py 
+- rviz2
+- su rviz aspettare che si vede la mappa. Se non si vede riavviare il launch file di rfid_amcl finchè non si vede
+- su rviz dare la stima della posizione iniziale
+- muovere il veicolo

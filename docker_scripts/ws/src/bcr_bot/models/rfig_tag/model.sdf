@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<sdf version="1.6">
+  <model name="rfid_tag">
+      <link name="link">
+      <collision name="collision">
+          <geometry>
+          <box>
+              <size>0.01 0.03 0.1</size> <!-- Dimensions of the box (x, y, z) -->
+          </box>
+          </geometry>
+      </collision>
+      <visual name="visual">
+          <geometry>
+          <box>
+              <size>0.01 0.03 0.1</size> <!-- Dimensions of the box (x, y, z) -->
+          </box>
+          </geometry>
+          <material>
+          <ambient>1.0 1.0 1.0 1.0</ambient> <!-- Ambient RGBA color -->
+          <diffuse>1.0 1.0 1.0 1.0</diffuse> <!-- Diffuse RGBA color -->
+          <specular>1.0 1.0 1.0 1.0</specular> <!-- Specular RGBA color -->
+          <emissive>1.0 1.0 1.0 1.0</emissive> <!-- Emissive RGBA color -->
+          </material>
+      </visual>
+      </link>
+      <static>true</static> <!-- Ensure the model is static if needed -->
+  </model>
+</sdf>

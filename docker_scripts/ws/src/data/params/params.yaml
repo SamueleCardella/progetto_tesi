@@ -1,0 +1,13 @@
+/rfid_amcl:
+  ros__parameters:
+    use_sim_time: true
+    tag_array_topic: /rfid/tag_array
+    covx: 0.01
+    covy: 0.01
+    cova: 0.01
+    tag_numbers: 1
+    tag_0: 
+      id: "01"
+      x: -0.758
+      y: 1.273
+      z: 0.05
